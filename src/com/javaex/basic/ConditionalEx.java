@@ -17,7 +17,9 @@ public class ConditionalEx {
 		// java의 switch는 char, string 값 비교 가능.
 		// -> Enum 타입에서 이 예제를 다시 변환해 볼 예정
 				
-		String day = "FRIDAY";
+		String day = "FRIDAY";  //문자열을 전송받기 떄문에 나타나는 문제: 
+								//1)오타 가능성 높음 2)요일값 만 제한적으로 전송받아야 함 
+								//--> enum으로 해결
 		String act; 
 		
 		switch (day) {
