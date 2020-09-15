@@ -44,7 +44,7 @@ public class ArrayEx {
 			tgt[i] = src[i];
 		}
 		
-		//3. 
+		//3. 새배열에 붙여넣기
 		for (int i = 0; i < tgt.length; i++) {
 			System.out.printf("%d\t", tgt[i]);
 		}
@@ -56,36 +56,36 @@ public class ArrayEx {
 	
 	
 	
-//	public static void twoDimenEx() {
-//		//2차원 배열의 선언 -배열의 배열
-//		int [][] twoDimen = new int[5][10]; //5행10열의 배열
-//		
-//		//기본데이터가 있을 때:
-//		int table[][] = {
-//			{1, 2, 3, 4, 5, 6, 7, 8, 9, 0},
-//			{2, 3, 4, 5, 6, 7, 8, 9, 0, 1},
-//			{3, 4, 5, 6, 7, 8, 9, 0, 1, 2},
-//			{4, 5, 6, 7, 8, 9, 0, 1, 2, 3},
-//			{5, 6, 7, 8, 9, 0, 1, 2, 3, 4}
-//		};
-//		
-//		//table length 확인하기 (행)
-//		System.out.println("table length: " + table.length);    
-//		
-//		//인덱스 접근범위: table[0] ~ table[table.length - 1] (열)
-//		System.out.println("table[0] length:" + table[0].length);
-//		
-//		//배열 내 모든 요소값 합산
-//		int sum = 0;
-//		for (int i = 0; i < table.length; i++) {    // 행 루프
-//			for (int j = 0; j < table[i].length; j++) //열 루프
-//				System.out.print(table[i][j] + "\t");
-//				sum += table[i][j];
-//		}
-//		
-//		System.out.println();
-//	}
-//	
+	public static void twoDimenEx() {
+		//2차원 배열의 선언 -배열의 배열
+		int [][] twoDimen = new int[5][10]; //5행10열의 배열
+		
+		//기본데이터가 있을 때:
+		int table[][] = {
+			{1, 2, 3, 4, 5, 6, 7, 8, 9, 0},
+			{2, 3, 4, 5, 6, 7, 8, 9, 0, 1},
+			{3, 4, 5, 6, 7, 8, 9, 0, 1, 2},
+			{4, 5, 6, 7, 8, 9, 0, 1, 2, 3},
+			{5, 6, 7, 8, 9, 0, 1, 2, 3, 4}
+		};
+		
+		//table length 확인하기 (행)
+		System.out.println("table length: " + table.length);    
+		
+		//인덱스 접근범위: table[0] ~ table[table.length - 1] (열)
+		System.out.println("table[0] length:" + table[0].length);
+		
+		//배열 내 모든 요소값 합산
+		int sum = 0;
+		for (int i = 0; i < table.length; i++) {    // 행 루프
+			for (int j = 0; j < table[i].length; j++) { //열 루프
+				System.out.print(table[i][j] + "\t");
+				sum += table[i][j];
+			}
+		}
+		System.out.println();
+	}
+	
 	
 	
 	public static void defineArray() {
