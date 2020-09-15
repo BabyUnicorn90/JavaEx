@@ -17,7 +17,6 @@ public class LoopEx {
 	
 	public static void randomEx() {
 		//System.out.println(Math.random());   //0.0 이상 1.0 미만의 실수 값
-		
 		//정수난수의 공식: (int)Math.random() * 최댓값 + 최솟값
 
 		
@@ -28,6 +27,7 @@ public class LoopEx {
 		}
 		System.out.println(); 
 	}
+	
 	
 	public static void breakEx() {
 		//루프도중, break를 만나면 --해당 루프문을 종료하고 탈출한다.

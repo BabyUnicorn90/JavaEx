@@ -161,33 +161,33 @@ public class ConditionalEx {
 		// 음수일 때
 		// 0일 때: 0입니다.
 		Scanner scanner = new Scanner(System.in);
-		String message = 
+		//String message = 
 				
-		System.out.print("정수를 입력하세요:");
-		int num = scanner.nextInt();
-		
-		
-		// 조건 판별
-		if (num > 0) {
-			//양수
-			//중첩가능
-			if (num % 2 == 0) {
-				message = "짝수입니다.";
-			} else {
-				message = "홀수입니다.";
-			}
-		} else if (num < 0) {
-			//음수
-			message = "음수입니다.";
-			
-		} else {
-			//0
-			message = "0입니다";
-		}
-		
-		
-		
-		
+		//System.out.print("정수를 입력하세요:");
+		//int num = scanner.nextInt();
+//		
+//		
+//		// 조건 판별
+//		if (num > 0) {
+//			//양수
+//			//중첩가능
+//			if (num % 2 == 0) {
+//				message = "짝수입니다.";
+//			} else {
+//				message = "홀수입니다.";
+//			}
+//		} else if (num < 0) {
+//			//음수
+//			message = "음수입니다.";
+//			
+//		} else {
+//			//0
+//			message = "0입니다";
+//		}
+//		
+//		
+//		
+//		
 	}
 	
 	
