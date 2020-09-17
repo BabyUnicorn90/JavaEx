@@ -45,7 +45,5 @@ public class Scoreboard implements Cloneable {
 		clone.scores = Arrays.copyOf(scores, scores.length);  //내가 가지고 있는 배열을 새로운 객체로 만들고 연결시켜줌
 		
 		return clone;
-	}
-	
-	
+	}	
 }
