@@ -15,7 +15,6 @@ public class Member implements Comparable {
 	public String toString() {
 		return "Member [name=" + name + "]";
 	}
-
 	
 	//인터페이스 메서드 구현
 	@Override
@@ -28,7 +27,4 @@ public class Member implements Comparable {
 		}
 		return 0;
 	}
-
-
-
 }
