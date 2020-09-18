@@ -27,15 +27,12 @@ public class ScannerEx {
 				
 				System.out.printf("%s - %.2f, %f%n", name, height, weight);
 				scanner.nextLine(); //남아있는 데이터 찾기
-			}
-			
+			}			
 			scanner.close();
 		} catch(FileNotFoundException e) {
 			e.printStackTrace();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-
 	}
-
 }
